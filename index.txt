@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Pagina web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Nuestra Página</h1>
+    <nav>
+        <a href="inicio">Inicio</a>
+        <a href="Quienes somos.html">Quiénes Somos</a>
+        <a href="nuestros-productos">Nuestros Productos</a>
+        <a href="contactanos">Contáctanos</a>
+    </nav>
+</header>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* Define la fuente del texto. Arial es la fuente principal, y sans-serif es la de respaldo. */
+        }
+        header {
+            background-color: #add7e5;
+            color: #004aad;
+            padding: 15px;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .L{
+            text-align: right;
+
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #004aad;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+
+        #logo{
+            left: 1px;
+            width: 100px;
+            height: 100px;
+            float: left;
+          }
+
+        .imagen-encima {
+            position: absolute; /* Para posicionar libremente dentro del contenedor */
+            width: 1500px; /* Tamaño de la imagen (ajustable) */
+        }
+        
+        /* Posicionando la primera imagen */
+        .imagen-encima:nth-child(1) {
+            top: 20%; /* Posición desde la parte superior del contenedor */
+            left: 10%; /* Posición desde la parte izquierda del contenedor */
+        }
+        
+        /* Posicionando la segunda imagen */
+        .imagen-encima:nth-child(2) {
+            top: 120%; /* Posición desde la parte superior del contenedor */
+            left: 10%; /* Posición desde la parte izquierda del contenedor */
+            margin-right: 20px; /* Espacio de separación entre imágenes */
+        }
+
+        .imagen-encima:nth-child(3) {
+            top: 190%; /* Posición desde la parte superior del contenedor */
+            left: 10%; /* Posición desde la parte izquierda del contenedor */
+            margin-right: 20px; /* Espacio de separación entre imágenes */
+        }
+
+        .imagen-encima:nth-child(4) {
+            top: 190%; /* Posición desde la parte superior del contenedor */
+            left: 10%; /* Posición desde la parte izquierda del contenedor */
+        }
+
+
+          .p {
+            background-image: url('fondo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 280vh; /* Altura del contenedor con fondo */
+            display: flex;
+            justify-content: center; /* Centramos horizontalmente */
+        
+        }
+        
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+            width: 1400px ;
+            max-width: 1700px;
+            margin: 60px auto;
+            background: #d0ebf4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            height: 800px;
+        }
+                
+
+    
+
+    
+    
+
+      #contactanos {
+        background-color: #004aad;
+        border-radius: 10px;
+        max-width: 600px;
+        margin: 60px auto;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    #contactanos h2 {
+        color: #004aad;
+        margin-bottom: 15px;
+    }
+    
+    #contactanos p {
+        color: #004aad;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    
+    .contact-info p {
+        font-size: 1em;
+        color: #004aad;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    .contact-info ul {
+        list-style: none;
+        padding: 0;
+        color: #004aad;
+    }
+    
+    .contact-info ul li {
+        margin-bottom: 5px;
+    }
+
+
+
+    .boton-imagen {
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.3s; /* Efecto de animación al pasar el cursor */
+        width: 50%; /* Ajusta el tamaño de la imagen */
+        border-radius: 8px; /* Bordes redondeados */
+        margin-right: 20px; /* Espacio entre imagen y texto */
+        width: 1400px;
+        height: 700px;
+    }
+
+
+    .boton-imagen:hover {
+        transform: scale(1.1); /* Aumenta el tamaño ligeramente al pasar el cursor */
+    }
+
+
+    .seccion-final {
+        background-color: #add7e5;
+        padding: 2px;
+        text-align: center;
+      }
+      
+      
+      .H{
+        color:#004aad;  
+      }
+
+      .imagenc {
+        width: 500px ; /* Ajusta el tamaño de la imagen */
+        border-radius: 8px; /* Bordes redondeados */
+        padding: 60px auto ;
+        margin-right: 20px; /* Espacio de separación entre imágenes */
+    }
+      .imagend {
+        width: 500px ; /* Ajusta el tamaño de la imagen */
+        border-radius: 8px; /* Bordes redondeados */
+        padding: 60px auto ;
+        margin-right: 20px; /* Espacio de separación entre imágenes */
+            }
+      .imagene {
+        width: 500px ; /* Ajusta el tamaño de la imagen */
+        border-radius: 8px; /* Bordes redondeados */
+        margin-right: 20px; /* Espacio de separación entre imágenes */
+        padding: 60px auto ;
+            }
+
+
+
+    
+    .contenido {
+        display: flex;
+        align-items: center;
+        width: 1800px ;
+        max-width: 1700px;
+        margin: 90px auto;
+        background: #d0ebf4;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        height: 800px;
+        justify-content: center; /* Centramos horizontalmente */
+
+    }
+
+
